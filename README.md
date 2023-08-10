@@ -48,7 +48,7 @@
 ## Usage
 
 ```console
-cookiecutter gh:AGMoller/cookiecutter-hypermodern-python # --checkout=2022.6.3
+cookiecutter gh:AGMoller/cookiecutter-hypermodern-python
 ```
 
 ## Features
