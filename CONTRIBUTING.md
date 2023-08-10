@@ -135,15 +135,15 @@ After publishing the release, the following automated steps are triggered:
 [continuous integration]: https://cookiecutter-hypermodern-python.readthedocs.io/en/stable/quickstart.html#continuous-integration
 [cookiecutter]: https://cookiecutter.readthedocs.io/
 [documentation]: https://cookiecutter-hypermodern-python.readthedocs.io/
-[github]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
-[issue tracker]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/issues
+[github]: https://github.com/AGMoller/cookiecutter-hypermodern-python
+[issue tracker]: https://github.com/AGMoller/cookiecutter-hypermodern-python/issues
 [mit license]: https://opensource.org/licenses/MIT
 [nox]: https://nox.thea.codes/
 [nox-poetry]: https://nox-poetry.readthedocs.io/
 [poetry]: https://python-poetry.org/
-[pull request]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/pulls
+[pull request]: https://github.com/AGMoller/cookiecutter-hypermodern-python/pulls
 [read the docs]: https://cookiecutter-hypermodern-python.readthedocs.io/
-[source code]: https://github.com/cjolowicz/cookiecutter-hypermodern-python
+[source code]: https://github.com/AGMoller/cookiecutter-hypermodern-python
 [user guide]: https://cookiecutter-hypermodern-python.readthedocs.io/en/latest/guide.html#how-to-test-your-project
 
 <!-- github-only -->

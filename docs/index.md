@@ -11,7 +11,7 @@ guide
 contributing
 Code of Conduct <codeofconduct>
 license
-Changelog <https://github.com/cjolowicz/cookiecutter-hypermodern-python/releases>
+Changelog <https://github.com/AGMoller/cookiecutter-hypermodern-python/releases>
 ```
 
 ```{include} ../README.md
@@ -27,7 +27,7 @@ based on the [Hypermodern Python] article series.
 ## Usage
 
 ```console
-$ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout="2022.6.3"
+$ cookiecutter gh:AGMoller/cookiecutter-hypermodern-python --checkout="2022.6.3"
 ```
 
 ## Features

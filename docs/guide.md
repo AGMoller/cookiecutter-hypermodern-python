@@ -144,6 +144,7 @@ $ pyenv install 3.7.12
 $ pyenv install 3.8.12
 $ pyenv install 3.9.10
 $ pyenv install 3.10.2
+$ pyenv install 3.11
 ```
 
 After creating your project (see [below](creating-a-project)),
@@ -151,7 +152,7 @@ you can make these Python versions accessible in the project directory,
 using the following command:
 
 ```console
-$ pyenv local 3.10.2 3.9.10 3.8.12 3.7.12
+$ pyenv local 3.10.2 3.9.10 3.8.12 3.7.12 3.11
 ```
 
 The first version listed is the one used when you type plain `python`.
@@ -214,7 +215,7 @@ by pointing Cookiecutter to its [GitHub repository][hypermodern python cookiecut
 Use the `--checkout` option with the [current stable release][2022.6.3]:
 
 ```console
-$ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout="2022.6.3"
+$ cookiecutter gh:AGMoller/cookiecutter-hypermodern-python --checkout="2022.6.3"
 ```
 
 Cookiecutter downloads the template,
@@ -981,10 +982,8 @@ for every Python version supported by your project,
 and easily switch between them:
 
 ```console
-$ poetry env use 3.7
-$ poetry env use 3.8
-$ poetry env use 3.9
 $ poetry env use 3.10
+$ poetry env use 3.11
 ```
 
 Only one Poetry environment can be active at any time.
@@ -2580,7 +2579,7 @@ You can also read the articles on [this blog][hypermodern python blog].
 [.github/dependabot.yml]: https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates
 [.gitignore]: https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository#_ignoring
 [.readthedocs.yml]: https://docs.readthedocs.io/en/stable/config-file/v2.html
-[2022.6.3]: https://github.com/cjolowicz/cookiecutter-hypermodern-python/releases/tag/2022.6.3
+[2022.6.3]: https://github.com/AGMoller/cookiecutter-hypermodern-python/releases/tag/2022.6.3
 [__main__]: https://docs.python.org/3/library/__main__.html
 [abstract syntax tree]: https://docs.python.org/3/library/ast.html
 [actions/cache]: https://github.com/actions/cache
